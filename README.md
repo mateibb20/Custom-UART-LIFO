@@ -109,7 +109,21 @@ The design bridges a host PC to custom VHDL fabric logic using both UART control
 5. Connect the Arty Z7-20 via USB, open a serial terminal at **115200 8N1**, and run **Run As > Launch Hardware**.
 
 ---
+## Hardware & Simulation Results
 
+### Live Board & Serial Terminal Demo
+![Arty Z7-20 Board Setup](docs/images/board_demo.jpg)
+*Figure 1: Digilent Arty Z7-20 running the hardware LIFO design with LED status indicators.*
+
+![Serial Terminal Push and Pop Output](docs/images/terminal_demo.png)
+*Figure 2: Host PC terminal showing real-time character pushes and debounced BTN0 LIFO pops.*
+
+### Vivado Block Design & Behavioral Simulation
+![Vivado PS-PL Block Design](docs/images/block_design.png)
+*Figure 3: Zynq-7000 PS7 EMIO UART1 connected to the custom UART_RX_TX_LIFO_TOP RTL module.*
+
+![Behavioral Simulation Waveform](docs/images/waveform.png)
+*Figure 4: Behavioral simulation verifying UART framing, LIFO stack pointers, and full/empty flags.*
 ## Demo & Board Controls
 
 Once the application starts, the terminal displays:
