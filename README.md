@@ -124,6 +124,16 @@ The design bridges a host PC to custom VHDL fabric logic using both UART control
 
 ![Behavioral Simulation Waveform](docs/images/waveform.png)
 *Figure 4: Behavioral simulation verifying UART framing, LIFO stack pointers, and full/empty flags.*
+
+## Hardware & Simulation Results
+
+![Empty Stack State](docs/images/empty.jpeg)
+![First Data Pushed](docs/images/first_data.png)
+![Intermediate Stack State](docs/images/between.jpeg)
+![Full Stack State](docs/images/full.jpeg)
+![Pop Operation](docs/images/pop.png)
+![Data After Clear](docs/images/data_after_clear.png)
+
 ## Demo & Board Controls
 
 Once the application starts, the terminal displays:
