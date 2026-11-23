@@ -1,0 +1,56 @@
+# ==============================================================================
+# Vivado Project & Build Artifacts
+# ==============================================================================
+*.xpr
+*.jou
+*.log
+*.str
+*.dmp
+*.pb
+*.wdb
+*.hwdef
+*.bit
+*.bin
+*.ltx
+*.mmi
+*.sysdef
+
+# Vivado Generated Directories
+vivado_proj/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+.Xil/
+
+# ==============================================================================
+# Vitis / Xilinx SDK Build & Workspace Artifacts
+# ==============================================================================
+.metadata/
+.analytics/
+.ide/
+.rigel_lopper*
+*.elf
+*.o
+*.d
+*.a
+*.map
+*.srec
+Debug/
+Release/
+_ide/
+export/
+hw_platform/
+platform/
+
+# ==============================================================================
+# OS & Editor Files
+# ==============================================================================
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
